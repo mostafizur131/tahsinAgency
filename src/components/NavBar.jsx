@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div
       className={
-        current === "/" ? "relative bg-primaryLight" : "relative bg-white"
+        current === "/" ? "relative bg-primaryLight" : "relative bg-[#F8F9FC]"
       }
     >
       <div className="container mx-auto">
