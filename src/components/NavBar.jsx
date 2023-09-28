@@ -6,7 +6,11 @@ import React from "react";
 const NavBar = () => {
   const current = usePathname();
   return (
-    <div className="relative bg-primaryLight">
+    <div
+      className={
+        current === "/" ? "relative bg-primaryLight" : "relative bg-white"
+      }
+    >
       <div className="container mx-auto">
         <nav className="relative px-6 py-6 flex justify-between items-center z-10">
           <Link href={"/"} className="text-xl text-black font-bold ">
