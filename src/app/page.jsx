@@ -1,3 +1,4 @@
+import Featured from "@/components/Featured";
 import HeroBg from "@/components/HeroBg";
 import Stats from "@/components/Stats";
 import WorkList from "@/components/WorkList";
@@ -9,6 +10,7 @@ const Home = () => {
       <HeroBg />
       <WorkList />
       <Stats />
+      <Featured />
     </div>
   );
 };
