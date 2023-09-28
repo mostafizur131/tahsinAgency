@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation";
 import React from "react";
 import Hero from "./Hero";
+import Brands from "./Brands";
 
 const HeroBg = () => {
   const current = usePathname();
@@ -14,6 +15,7 @@ const HeroBg = () => {
       }
     >
       <Hero />
+      <Brands />
     </section>
   );
 };
